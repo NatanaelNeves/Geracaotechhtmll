@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
     <style>
-        table, th, td, tr{
+        table, th, td, tr, form {
             border: 1px solid black;
         }
     </style>
@@ -79,5 +79,53 @@
             <td>Info linha 5 col3</td>
         </tr>
     </table>
+
+    <h2> Apresentação formularios </h2>
+    <form>
+        
+        <label for="meuID">Rótulo da informação a ser inserida</label>
+        <br>
+        <input type="text" id="meuID">
+        <br>
+
+        <label for="numero">Rotulo para número</label>
+        <br>
+        <input type="number" id="numero" value="1000">
+    <br>
+    <label for="email">Rótulo para e-mail</label>
+    <br>
+    <input type="email" name="" id="email" placeholder="exemplo@email.com">
+    <br>
+    <label for="senha">Rótulo para senha</label>
+    <br>
+    <input type="password" name="" id="senha">
+    <br>    
+    <label for="f">Exemplo caixas de seleção </label>
+    <br>
+    <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
+    <label for="f">Loja Departamento Feminino</label>
+
+    <input type="checkbox" name="selecao" id="m" value="DepartamentoMasculino">
+    <label for="m">Loja Departamento Masculino</label>
+    <br>
+
+    <label for="um">Exemplo de seleção única</label>
+    <br>
+    <input type="radio" name="selecaoUnica" id="um" value="1">
+    <label for="um">primeira opção</label>
+    <br>
+    <input type="radio" name="selecaoUnica" id="dois" value="2">
+    <label for="dois">segunda opção</label>        
+    <br>
+    <label for="testeSelect">Seleção por lista</label>
+    <br>
+    <select name="testeSelect" id="testeSelect">
+        <option value="1" disabled>Um</option>
+        <option value="2">Dois</option>
+        <option value="3">Três</option>
+    </select>
+     <br>
+     <textarea name="" id="" cols="30" rows="10" placeholder="feedback da empresa"></textarea>
+    </form>
 </body>
 </html>
