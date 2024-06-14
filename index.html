@@ -11,121 +11,152 @@
     </style>
 </head> 
 <body>
-    <h1>Exemplos de utilização das tags</h1>
 
-    <h2>Apresentação das listas</h2>
+    <header>
+        <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="Logo programa Geração Tech">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eos natus maxime, corrupti tempora voluptatibus?</p>
+        <h1> Geração Tech- Desenvolvimento Front-end</h1>
 
-    <h3>Listas Ordenadas</h3>
+        <nav>
+            <a href="">Tags de Texto</a>
+            <a href="#listas">Tags de Listas</a>
+            <a href="#tabelas">Tags Tabelas</a>
+            <a href="#formularios">Tags Formulários</a>
+            <a href="">Tags de Divsões</a>
+        </nav>
 
-    <ol type="A">
-        <li>Coisa</li>
-        <li>Coisa</li>
-        <li>Coisa</li>
-    </ol>
+    </header>
 
-
-    <h3>Listas Não Ordenadas</h3>
-
-    <ul>
-        <li>Coisa</li>
-        <li>Coisa</li>
-        <li>Coisa</li>
-    </ul>
-
-    <h3>Continuação das Listas Ordenadas</h3>
-
-    <ol type="A" start=4>
-        <li>Outra Coisa</li>
-        <li>Outra Coisa</li>
-    </ol>
-
-    <img src="" alt="" width="10px">
-
-    <h2> Apresentação de tabela </h2>
-    <table>
-        <!--TITULO DAS COLUNAS-->
-        <tr>
-            <th> coluna1 </th>
-            <th> coluna2 </th>
-            <th> coluna3 </th>
-        </tr>
-
-        <!--INFORMAÇOES DA TABELA -->
-        <tr>
-            <td> Info Linha1 c  ol1 </td>
-            <td> Info Linha1 col2 </td>
-            <td> Info Linha1 col3 </td>
-        </tr>
-
-        <tr>
-            <td> Info Linha2 col1 </td>
-            <td> Info Linha2 col2 </td>
-            <td> Info Linha2 col3 </td>
-        </tr>
-
-        <tr>
-            <td colspan="2"> Info Linha3 col1/2 </td>   
-            <td> Info Linha3 col3 </td>
-        </tr>
-        <tr>
-            <td rowspan="2"> Info Linha 4/5 col1</td>
-            <td> Info Linha 4 col2</td>
-            <td> Info Linha 4 col3</td>
-        </tr>
-        <tr>
-            <td>Info linha 5 col2</td>
-            <td>Info linha 5 col3</td>
-        </tr>
-    </table>
-
-    <h2> Apresentação formularios </h2>
-    <form>
+    <main>
+        <h1>Exemplos de utilização das tags</h1>
         
-        <label for="meuID">Rótulo da informação a ser inserida</label>
-        <br>
-        <input type="text" id="meuID">
-        <br>
+        <section id="listas">
+            <h2>Apresentação das listas</h2>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eos natus maxime, corrupti tempora voluptatibus?</p>
+        
+            <h3>Listas Ordenadas</h3>
+        
+            <ol type="A">
+                <li>Coisa</li>
+                <li>Coisa</li>
+                <li>Coisa</li>
+            </ol>
+        
+        
+            <h3>Listas Não Ordenadas</h3>
+        
+            <ul>
+                <li>Coisa</li>
+                <li>Coisa</li>
+                <li>Coisa</li>
+            </ul>
+        
+            <h3>Continuação das Listas Ordenadas</h3>
+        
+            <ol type="A" start=4>
+                <li>Outra Coisa</li>
+                <li>Outra Coisa</li>
+            </ol>
+        
+            <img src="" alt="" width="10px">
+        
+        </section>
 
-        <label for="numero">Rotulo para número</label>
+       <section id="tabelas">
+        <h2> Apresentação de tabela </h2>
+        <table>
+            <!--TITULO DAS COLUNAS-->
+            <tr>
+                <th> coluna1 </th>
+                <th> coluna2 </th>
+                <th> coluna3 </th>
+            </tr>
+    
+            <!--INFORMAÇOES DA TABELA -->
+            <tr>
+                <td> Info Linha1 c  ol1 </td>
+                <td> Info Linha1 col2 </td>
+                <td> Info Linha1 col3 </td>
+            </tr>
+    
+            <tr>
+                <td> Info Linha2 col1 </td>
+                <td> Info Linha2 col2 </td>
+                <td> Info Linha2 col3 </td>
+            </tr>
+    
+            <tr>
+                <td colspan="2"> Info Linha3 col1/2 </td>   
+                <td> Info Linha3 col3 </td>
+            </tr>
+            <tr>
+                <td rowspan="2"> Info Linha 4/5 col1</td>
+                <td> Info Linha 4 col2</td>
+                <td> Info Linha 4 col3</td>
+            </tr>
+            <tr>
+                <td>Info linha 5 col2</td>
+                <td>Info linha 5 col3</td>
+            </tr>
+        </table>
+       </section>
+       
+       <section id="formularios">
+        <h2> Apresentação formularios </h2>
+        <form>
+            
+            <label for="meuID">Rótulo da informação a ser inserida</label>
+            <br>
+            <input type="text" id="meuID">
+            <br>
+    
+            <label for="numero">Rotulo para número</label>
+            <br>
+            <input type="number" id="numero" value="1000">
         <br>
-        <input type="number" id="numero" value="1000">
-    <br>
-    <label for="email">Rótulo para e-mail</label>
-    <br>
-    <input type="email" name="" id="email" placeholder="exemplo@email.com">
-    <br>
-    <label for="senha">Rótulo para senha</label>
-    <br>
-    <input type="password" name="" id="senha">
-    <br>    
-    <label for="f">Exemplo caixas de seleção </label>
-    <br>
-    <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
-    <label for="f">Loja Departamento Feminino</label>
+        <label for="email">Rótulo para e-mail</label>
+        <br>
+        <input type="email" name="" id="email" placeholder="exemplo@email.com">
+        <br>
+        <label for="senha">Rótulo para senha</label>
+        <br>
+        <input type="password" name="" id="senha">
+        <br>    
+        <label for="f">Exemplo caixas de seleção </label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
+        <label for="f">Loja Departamento Feminino</label>
+    
+        <input type="checkbox" name="selecao" id="m" value="DepartamentoMasculino">
+        <label for="m">Loja Departamento Masculino</label>
+        <br>
+    
+        <label for="um">Exemplo de seleção única</label>
+        <br>
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">primeira opção</label>
+        <br>
+        <input type="radio" name="selecaoUnica" id="dois" value="2">
+        <label for="dois">segunda opção</label>        
+        <br>
+        <label for="testeSelect">Seleção por lista</label>
+        <br>
+        <select name="testeSelect" id="testeSelect">
+            <option value="1" disabled>Um</option>
+            <option value="2">Dois</option>
+            <option value="3">Três</option>
+        </select>
+         <br>
+         <textarea name="" id="" cols="30" rows="10" placeholder="feedback da empresa"></textarea>
+        </form>
+       </section>       
+    </main>
+    
+    <footer>
 
-    <input type="checkbox" name="selecao" id="m" value="DepartamentoMasculino">
-    <label for="m">Loja Departamento Masculino</label>
-    <br>
 
-    <label for="um">Exemplo de seleção única</label>
-    <br>
-    <input type="radio" name="selecaoUnica" id="um" value="1">
-    <label for="um">primeira opção</label>
-    <br>
-    <input type="radio" name="selecaoUnica" id="dois" value="2">
-    <label for="dois">segunda opção</label>        
-    <br>
-    <label for="testeSelect">Seleção por lista</label>
-    <br>
-    <select name="testeSelect" id="testeSelect">
-        <option value="1" disabled>Um</option>
-        <option value="2">Dois</option>
-        <option value="3">Três</option>
-    </select>
-     <br>
-     <textarea name="" id="" cols="30" rows="10" placeholder="feedback da empresa"></textarea>
-    </form>
+    </footer>
+  
 </body>
 </html>
