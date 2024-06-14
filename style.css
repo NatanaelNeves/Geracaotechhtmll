@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+table, th, td, tr, form {
+    border: 1px solid black;
+}
+
+.div1{
+    background-color: blue;
+    color: black;
+    min-width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.div2{
+    background-color: green;
+    color: black;
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+
+.div3{
+    background-color: rgb(178, 22, 22);
+    color: black;   
+    width: 80px;
+    max-height: 80px;
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+}
+
+    header{
+        border: 1px solid red;
+        border-left: 20px solid red;
+        border-radius: 10px;
+        background: lightgreen;
+        margin: 10px 25px 0px 30px;
+        padding: 10px 0px;
+    }
