@@ -5,29 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
    <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head> 
-<body>
+<body class="bg-secondary">
 
     <header>
-        <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="Logo programa Geração Tech">
+        <div class="text-center">
+            <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="Logo programa Geração Tech" class="rounded" >
 
-        <h1> Geração Tech- Desenvolvimento Front-end</h1>
-
+        <h1 class="text-center text-light"> Geração Tech- Desenvolvimento Front-end</h1>
+        </div>
+        
         <nav>
-            <a href="#texto">Tags de Texto</a>
-            <a href="#listas">Tags de Listas</a>
-            <a href="#tabelas">Tags Tabelas</a>
-            <a href="#formularios">Tags Formulários</a>
-            <a href="#divisoes">Tags de Divsões</a>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#texto">Tags de Texto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#listas">Tags de Listas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tabelas">Tags Tabelas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formularios">Tags Formulários</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#divisoes">Tags de Divsões</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#flexbox">Tags de Flex Box</a>
+                  </li>
+              </ul>
         </nav>
 
     </header>
 
     <main>
-        <h1>Exemplos de utilização das tags</h1>
+        <h1 class="font-weight-bold text-white"> <u>Exemplos de utilização das tags:</u></h1>
         
         <section id="texto">
-            <h2>Apresentação exemplos de tags de textos</h2>
+            <h2 class="text-white">Apresentação exemplos de tags de textos</h2>
             <p>
                 Romanos 12: Portanto, irmãos, peço, pelas misericórdias de Deus, que ofereçam o corpo de vocês como sacrifício vivo, santo e agradável a Deus: este é o culto racional de vocês. 2Não se amoldem ao padrão deste mundo, mas transformem se pela renovação da sua mente, para que vocês experimentem a boa, agradável e perfeita vontade de Deus.
 
@@ -35,11 +54,11 @@
         </section>
         
         <section id="listas">
-            <h2>Apresentação das listas</h2>
+            <h2 class="text-white">Apresentação das listas</h2>
     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eos natus maxime, corrupti tempora voluptatibus?</p>
         
-            <h3>Listas Ordenadas</h3>
+            <h3 class="text-white">Listas Ordenadas</h3>
         
             <ol type="A">
                 <li>Coisa</li>
@@ -48,7 +67,7 @@
             </ol>
         
         
-            <h3>Listas Não Ordenadas</h3>
+            <h3class="text-white">Listas Não Ordenadas</h3>
         
             <ul>
                 <li>Coisa</li>
@@ -56,7 +75,7 @@
                 <li>Coisa</li>
             </ul>
         
-            <h3>Continuação das Listas Ordenadas</h3>
+            <h3 class="text-white">Continuação das Listas Ordenadas</h3>
         
             <ol type="A" start=4>
                 <li>Outra Coisa</li>
@@ -68,7 +87,7 @@
         </section>
 
        <section id="tabelas">
-        <h2> Apresentação de tabela </h2>
+        <h2 class="text-white"> Apresentação de tabela </h2>
         <table>
             <!--TITULO DAS COLUNAS-->
             <tr>
@@ -107,7 +126,7 @@
        </section>
        
        <section id="formularios">
-        <h2> Apresentação formularios </h2>
+        <h2 class="text-white"> Apresentação formularios </h2>
         <form>
             
             <label for="meuID">Rótulo da informação a ser inserida</label>
@@ -157,7 +176,7 @@
        </section>       
 
        <section id="divisoes">
-        <h2>Apresentação divisões</h2>
+        <h2 class="text-white">Apresentação divisões</h2>
         <div class="div1"> 
            1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, totam!
         </div>
@@ -171,12 +190,24 @@
         </div>
 
        </section>
+
+       <section id="flexbox">
+        <h2 class="text-white">Aplicação Flex box</h2>
+
+        <div class="container">
+         <div class="itemFlex vermelho">1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, et.</div>
+         <div class="itemFlex verde">2</div>
+         <div class="itemFlex azul">3</div>    
+        </div>
+
+       </section>
     </main>
     
     <footer>
 
 
     </footer>
-  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
